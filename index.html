@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1 style="font-size: 50px;"><center><em>Survey Form</em></center></h1>
+    <link rel="stylesheet" href="styles.css" class="css">
+   
+</head>
+<style>
+div p{
+background-color:rgb(163, 153, 174);
+}
+</style>
+<body>
+<p>
+Dear Students,
+
+We value your input and want to ensure that your voice is heard!<span class="highlight"> Your feedback is crucial in helping us understand your experiences needs, and preferences as students.</span> This survey aims to gather valuable insights to improve various aspects of our educational institution.
+
+Your responses will remain anonymous and confidential. Please be honest and provide thoughtful feedback to help us make informed decisions and enhance your overall learning environment.
+
+Thank you for taking the time to participate in this survey. Your contribution is greatly appreciated!
+</p>
+</div>
+<p>To change the form background color click below</p>
+</body>
+
+
+<body>
+    <div class="container">
+        <button onclick="changeColors()" type="button" class="btn btn-light">Click</button>
+    </div>
+    <form name="f1" action="login.html" method="post">
+        <fieldset><legend><h1><i>Personal Information</i></h1></legend>
+        <h2>First name:</h2><input type="text" placeholder="First name" name="First name"> 
+        <h2>Last name:</h2><input type="text" placeholder="Last name" name="Last name"><br>
+        <h2>Email id:</h2><input type="text" placeholder="xyz@abes.ac.in" name="Email Id"><br>
+        <h2>contact no.:</h2><input type="number" name="contact no"><br>
+        <h2>DOB:</h2><input type="date" name="DOB"><br>
+        <h2>Date/Time:</h2><input type="datetime" name="Date/Time"><br>
+        <h2>Gender:</h2><input type="radio" name="radio">Male
+               <input type="radio" name="radio">Female<br>
+               <p style="text-align:right";><h2>Photo:</h2><input type="file" name="Photo"></p>
+                
+        </fieldset>
+     
+ <fieldset><legend><h1>Study reference</h1></legend>
+    <a href="https://www.w3schools.com/html/"><strong>Coding website</strong></a><br>
+    <input type="button" value="Tap on above link"<br>
+    
+</fieldset>
+    
+      
+      <fieldset><legend><h1><i>Language</i></h1></legend>
+      <input type="checkbox" name="a">Python<br>
+      <input type="checkbox" name="b">C++<br>
+      <input type="checkbox" name="c">Java<br>
+    </fieldset>
+      
+      <fieldset><legend><h1><i>Text area</i></h1></legend>
+      <textarea rows="10" cols="50">What is Your Hobbies:
+
+</textarea><br>
+</fieldset>
+
+     <fieldset><legend><h1><i>Select Your Language:</i></h1></legend>
+      <select>
+         <option>C</option><br>
+         <option>C++</option><br>
+         <option>Python</option><br>
+         <option>Java</Option><br>
+         </fieldset>
+         <script src="script.js"></script>
+    
+  
+</body>
+</html>
